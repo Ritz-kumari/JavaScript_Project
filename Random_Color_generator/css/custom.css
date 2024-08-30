@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body{
+    display: flex;
+    transition: "20.5sec";
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button{
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    font-family: "SUSE", sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
