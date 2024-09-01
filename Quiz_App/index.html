@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="main">
+        <div id="box">
+            <h1 id="queBox">This is my dummy Question</h1>
+            <div class="row">
+                <!-- If you want to select only one option then we need to give same name to all input variable -->
+                <input class="options" id="option1" type="radio" value='a' name="option"> 
+                <label> Option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option1" type="radio" value='b' name="option">
+                <label> Option 2</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option1" type="radio" value='c' name="option">
+                <label> Option 3</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option1" type="radio" value='d' name="option">
+                <label> Option 4</label>
+            </div>
+            <div class="btn">
+                <button onclick = "submitQuiz()">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
