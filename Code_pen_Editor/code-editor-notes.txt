@@ -1,0 +1,3 @@
+--> CodeMirror can be used to build in-browser code editors or integrated development environments, allowing users to write, edit, and test code directly within a web application.
+
+--> <iframe> tag is a useful tool for embedding content from other sources into a web page,
